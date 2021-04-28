@@ -1,4 +1,6 @@
 import navbar from './utils/pages/nav';
+import food from './utils/img/board.jpg';
+import './utils/css/style.css';
 
 
 const display = () => {
@@ -19,3 +21,4 @@ const display = () => {
 
 
 display();
+
