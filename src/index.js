@@ -5,12 +5,15 @@ const display = () => {
   const content = document.querySelector('#content');
 
   content.innerHTML = `
-<div>
-  ${navbar()}
-</div>
-<div id="display-text">
+  <div class="bg-pic">
+  
+  </div>
+  <div>
+    ${navbar()}
+  </div>
+  <div id="display-text">
 
-</div>
+  </div>
 `;
 };
 
