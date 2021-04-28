@@ -19,7 +19,7 @@ Click [here]()
 - `cd` into the project
 - Run `git pull origin feature-page`
 - Run `yarn install` or `npm install` to install all the dependencies
-- Run `yarn watch` or `npm watch` to start the webpack-server
+- Run `yarn watch` or `npm run dev` to start the webpack-server
 
 ## Author
 
