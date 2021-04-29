@@ -4,6 +4,7 @@ import './utils/css/style.css';
 import home from './utils/pages/home';
 import homeItems from './utils/pages/home-items';
 import contact from './utils/pages/contact';
+import menu from './utils/pages/menu';
 
 
 const display = () => {
@@ -15,7 +16,7 @@ const display = () => {
     ${home()}
   </div>
   <div id="display-text">
-  ${contact()}
+  ${menu()}
   </div>
 `;
 };
@@ -24,12 +25,13 @@ const loadEventListers = () => {
   const switchTabs = event => {
     const content = document.getElementById('display-text');
     switch (event.target.element) {
-      case 'Home':
-        content.innerHTML = home();
+      case 'Menu':
+        content.innerHTML = menu();
         break;
       case 'Contact':
         content.innerHTML = contact();
       default:
+        content.innerHTML = homeItems();
         break;
     }
   }

@@ -1,5 +1,6 @@
 .nav-content {
   background-color: rgb(33, 37, 41);
+  opacity: 0.6;
 }
 
 .m-h1 {
@@ -19,5 +20,9 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1em;
   column-gap: 1em;
+  margin-top: 20px;
+}
+
+.menu-list {
   margin-top: 20px;
 }
