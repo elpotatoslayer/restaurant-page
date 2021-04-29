@@ -3,6 +3,9 @@
 > This project was meant to enhance the knowledge on DOM manipulation by
 > dynamically rendering a simple restaurant homepage.
 
+## Screenshot
+
+![Screenshot](./src/utils/img/Screenshot.png)
 ## Live demo
 
 Click [here]()
