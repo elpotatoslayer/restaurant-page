@@ -1,4 +1,6 @@
-
+.nav-content {
+  background-color: rgb(33, 37, 41);
+}
 
 .m-h1 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
@@ -7,6 +9,10 @@
 .banner {
   height: 75vh;
 }
+
+/* .main-banner {
+  background-image: url(./utils/img/board.jpg);
+} */
 
 .grid {
   display: grid;
