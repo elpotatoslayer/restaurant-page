@@ -48,6 +48,6 @@ const menu = () => {
   
   `;
   return menuItems.outerHTML;
-}
+};
 
 export default menu;

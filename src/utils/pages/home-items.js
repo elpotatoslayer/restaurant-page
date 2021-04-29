@@ -1,7 +1,7 @@
 const homeItems = () => {
   const details = document.createElement('div');
   details.className = 'grid container-fluid';
-  details.innerHTML =  `
+  details.innerHTML = `
 
   <div class="card text-center">
     <div class="card-body">
@@ -49,6 +49,6 @@ const homeItems = () => {
   `;
 
   return details.outerHTML;
-}
+};
 
 export default homeItems;

@@ -5,7 +5,6 @@ import homeItems from './utils/pages/home-items';
 import contact from './utils/pages/contact';
 import menu from './utils/pages/menu';
 
-
 const display = () => {
   const content = document.querySelector('#content');
 
@@ -21,7 +20,7 @@ const display = () => {
 };
 
 const loadEventListers = () => {
-  const switchTabs = event => {
+  const switchTabs = (event) => {
     const content = document.querySelector('#display-text');
     switch (event.target.textContent) {
       case 'Menu':
@@ -35,13 +34,13 @@ const loadEventListers = () => {
     }
 
     const currentActive = document.querySelectorAll('.nav-links a.active');
-    currentActive.forEach(node => node.classList.remove('active'));
+    currentActive.forEach((node) => node.classList.remove('active'));
     event.target.classList.add('active');
-  }
+  };
 
   const navLinks = document.querySelectorAll('.nav-item a');
-  navLinks.forEach(navLink => navLink.addEventListener('click', switchTabs));
-}
+  navLinks.forEach((navLink) => navLink.addEventListener('click', switchTabs));
+};
 
 display();
 loadEventListers();

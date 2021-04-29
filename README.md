@@ -20,7 +20,8 @@ Click [here]()
 
 - Clone the repo `https://github.com/Ralph-1/restaurant-page.git`
 - `cd` into the project
-- Run `git pull origin feature-page`
+- Run `git checkout restaurant-page` to the branch with the project.
+- Run `git pull`
 - Run `yarn install` or `npm install` to install all the dependencies
 - Run `npm run dev` to start the webpack-server
 

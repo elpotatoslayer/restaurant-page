@@ -13,7 +13,7 @@ const home = () => {
     </div>
   
   `;
-return UIhome.outerHTML;
-}
+  return UIhome.outerHTML;
+};
 
 export default home;

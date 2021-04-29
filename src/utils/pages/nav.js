@@ -1,4 +1,3 @@
-
 const navbar = () => {
   const nav = document.createElement('nav');
 
@@ -18,6 +17,6 @@ const navbar = () => {
 
   nav.appendChild(navContent);
   return nav.outerHTML;
-}
+};
 
 export default navbar;

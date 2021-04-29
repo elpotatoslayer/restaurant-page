@@ -23,8 +23,8 @@ const contact = () => {
        
       </form>
     </div>
-  `
+  `;
   return info.outerHTML;
-}
+};
 
 export default contact;
