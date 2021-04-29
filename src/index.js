@@ -23,12 +23,13 @@ const display = () => {
 const loadEventListers = () => {
   const switchTabs = event => {
     const content = document.querySelector('#display-text');
-    switch (event.target.element) {
+    switch (event.target.textContent) {
       case 'Menu':
         content.innerHTML = menu();
         break;
       case 'Contact':
         content.innerHTML = contact();
+        break;
       default:
         content.innerHTML = homeItems();
     }
