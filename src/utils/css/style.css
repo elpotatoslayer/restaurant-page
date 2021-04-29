@@ -1,13 +1,17 @@
 
 
-.__btn :hover {
-  background-color: red;
-}
-
 .m-h1 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
 }
 
 .banner {
   height: 75vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1em;
+  column-gap: 1em;
+  margin-top: 20px;
 }

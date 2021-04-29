@@ -1,6 +1,6 @@
 const home = () => {
   const UIhome = document.createElement('div');
-  UIhome.className = 'row';
+  UIhome.className = 'main-banner';
 
   UIhome.innerHTML = `
     <div class="container-fluid pt-5 bg-dark text-center banner" >

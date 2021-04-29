@@ -2,6 +2,7 @@ import navbar from './utils/pages/nav';
 import food from './utils/img/board.jpg';
 import './utils/css/style.css';
 import home from './utils/pages/home';
+import homeItems from './utils/pages/home-items';
 
 
 const display = () => {
@@ -13,6 +14,7 @@ const display = () => {
     ${home()}
   </div>
   <div id="display-text">
+  ${homeItems()}
   </div>
 `;
 };
