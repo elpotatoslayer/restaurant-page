@@ -6,13 +6,13 @@ const navbar = () => {
   navContent.className = 'nav nav-content justify-content-center';
   navContent.innerHTML = `  
   <li class="nav-item">
-  <a class="nav-link active text-white" href="#">Home</a>
+    <a class="nav-link text-white active" id="home" href="#">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#">Menu</a>
+    <a class="nav-link text-white" id="menu" href="#">Menu</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#">Contact</a>
+    <a class="nav-link text-white" id="contact" href="#">Contact</a>
   </li>
   `;
 

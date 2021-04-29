@@ -1,5 +1,4 @@
 import navbar from './utils/pages/nav';
-import food from './utils/img/board.jpg';
 import './utils/css/style.css';
 import home from './utils/pages/home';
 import homeItems from './utils/pages/home-items';
@@ -16,14 +15,14 @@ const display = () => {
     ${home()}
   </div>
   <div id="display-text">
-  ${menu()}
+  
   </div>
 `;
 };
 
 const loadEventListers = () => {
   const switchTabs = event => {
-    const content = document.getElementById('display-text');
+    const content = document.querySelector('#display-text');
     switch (event.target.element) {
       case 'Menu':
         content.innerHTML = menu();
@@ -32,11 +31,16 @@ const loadEventListers = () => {
         content.innerHTML = contact();
       default:
         content.innerHTML = homeItems();
-        break;
     }
+
+    const currentActive = document.querySelectorAll('.nav-links a.active');
+    currentActive.forEach(node => node.classList.remove('active'));
+    event.target.classList.add('active');
   }
+
+  const navLinks = document.querySelectorAll('.nav-item a');
+  navLinks.forEach(navLink => navLink.addEventListener('click', switchTabs));
 }
 
-// loadEventListers();
 display();
-
+loadEventListers();
