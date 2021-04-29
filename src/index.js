@@ -3,6 +3,7 @@ import food from './utils/img/board.jpg';
 import './utils/css/style.css';
 import home from './utils/pages/home';
 import homeItems from './utils/pages/home-items';
+import contact from './utils/pages/contact';
 
 
 const display = () => {
@@ -14,7 +15,7 @@ const display = () => {
     ${home()}
   </div>
   <div id="display-text">
-  ${homeItems()}
+  ${contact()}
   </div>
 `;
 };
@@ -26,7 +27,8 @@ const loadEventListers = () => {
       case 'Home':
         content.innerHTML = home();
         break;
-    
+      case 'Contact':
+        content.innerHTML = contact();
       default:
         break;
     }
