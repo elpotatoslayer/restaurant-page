@@ -1,0 +1,28 @@
+.nav-content {
+  background-color: rgb(33, 37, 41);
+  opacity: 0.6;
+}
+
+.m-h1 {
+  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+}
+
+.banner {
+  height: 75vh;
+}
+
+/* .main-banner {
+  background-image: url(./utils/img/board.jpg);
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1em;
+  column-gap: 1em;
+  margin-top: 20px;
+}
+
+.menu-list {
+  margin-top: 20px;
+}
